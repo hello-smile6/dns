@@ -134,6 +134,11 @@ channle: # by https://github.com/cjdenio
   type: CNAME
   value: channle.netlify.app.
 
+chess: # by https://github.com/leecheeyong/chinese-chess
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
 click: # a URL shortener
   ttl: 600
   type: CNAME
@@ -214,6 +219,11 @@ factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   ttl: 600
   type: A
   value: 168.119.243.45
+  
+featuretracker:
+  ttl: 600
+  type: CNAME
+  value: cloudwaddie.hackclub.app.
 
 firepi:
 - ttl: 600
@@ -223,6 +233,11 @@ firepi:
   type: A
   value: 69.8.95.218
 
+fokus: # https://github.com/leecheeyong/fokus
+  ttl: 600
+  type: CNAME
+  value: leecheeyong.github.io.
+  
 foodshuffle: #scrapyard seattle team foodshuffle project
 - ttl: 600
   type: A
@@ -301,7 +316,12 @@ kevin: # Kevin Yang
   ttl: 600
   type: CNAME
   value: bykevinyang.netlify.app.
-  
+
+krishnan: # @krishnans2006
+  - ttl: 600
+    type: A
+    value: 150.136.13.65
+
 kunal: # kunal
   ttl: 600
   type: NS
@@ -451,6 +471,15 @@ rr: # Rickroll with a single line of bash
   type: CNAME
   value: cname.vercel-dns.com.
 
+run:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+_vercel.run:
+  ttl: 600
+  type: TXT
+  value: "vc-domain-verify=run.dino.icu,64166b93fe669c4cf421"
+
 runshaw: # Used for an email alias for for runshaw hack club members (https://runshaw.hackclub.com/) - contact @Dragon863
   ttl: 600
   type: MX
@@ -458,10 +487,21 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
     exchange: mail.danieldb.uk.
     preference: 1
 
+s: 
+- ttl: 600
+  type: A
+  value: 37.27.51.34
+- ttl: 600
+  type: TXT
+  value: domain-verification=saif
+    
 saif:
   - ttl: 600
     type: A
-    value: 76.76.21.21
+    value: 37.27.51.34
+  - ttl: 600
+    type: TXT
+    value: domain-verification=saif
     
 sayhan: # portfolio and other apps?
   - ttl: 600
@@ -481,7 +521,7 @@ sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
 sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
-  value: 37.27.245.191
+  value: 144.21.62.56
 
 subdomain: # Free subdomain generator.
   ttl: 600
@@ -691,7 +731,7 @@ yc:
 
 yates: 
   type: A
-  value: 1.158.68.199
+  value: 101.178.35.248
 
 you-ship-we-vote:
   - ttl: 600
